@@ -1,3 +1,4 @@
+require binding"pry"
 class Song
   attr_accessor :name, :artist 
   
@@ -25,6 +26,7 @@ class Song
     song = self.new(song_name)
     song.artist_name = artist_name
     song
+    binding.pry
   end
 
   def artist_name=(name)
