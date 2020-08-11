@@ -1,4 +1,4 @@
-require binding"pry"
+require binding "pry"
 class Song
   attr_accessor :name, :artist 
   
