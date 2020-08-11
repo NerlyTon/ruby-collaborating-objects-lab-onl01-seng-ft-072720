@@ -18,7 +18,7 @@ class Song
     song_name = file.split(" - ")[1]
     self.artist = file.split(" - ")[0]
     song = self.new(song_name)
-    @artist = artist_name
+    artist = artist_name
     song
     # binding.pry
   end
